@@ -1,0 +1,90 @@
+ROCK PAPER SCISSORS - PYTHON PROGRAM
+
+DESCRIPTION:
+This is a simple Rock-Paper-Scissors game written in Python. The user enters rock, paper, or scissors, and the computer randomly selects one of the three options. The program compares both choices and prints whether the user wins, loses, or ties. The program also validates user input and shows an error message if the input is invalid.
+
+FEATURES:
+
+Validates user input
+
+Random computer choice using Python's random module
+
+Clear win, lose, and tie logic
+
+Beginner-friendly code structure
+
+Fully commented source code
+
+HOW THE PROGRAM WORKS:
+
+The program asks the user to enter rock, paper, or scissors.
+
+It checks if the input is valid.
+
+If the input is valid:
+
+The computer randomly selects rock, paper, or scissors.
+
+The program compares both choices.
+
+The result is displayed.
+
+If the input is invalid:
+
+An error message is shown.
+
+The game does not continue.
+
+GAME RULES:
+
+Rock beats Scissors
+
+Paper beats Rock
+
+Scissors beat Paper
+
+Same choice results in a tie
+
+HOW TO RUN THE PROGRAM:
+
+Install Python 3.
+
+Save the script as rock_paper_scissors.py.
+
+Open a terminal or command prompt.
+
+Run the following command:
+
+python rock_paper_scissors.py
+
+EXAMPLE OUTPUT:
+
+Enter rock, paper, or scissors: rock
+
+You chose: rock
+Computer chose: scissors
+You win!
+
+REQUIREMENTS:
+
+Python 3.x
+
+No external libraries required
+
+FUTURE IMPROVEMENTS:
+
+Add a loop to play multiple rounds
+
+Add a score counter
+
+Add a best-of-5 mode
+
+Add a graphical interface using Tkinter
+
+Add sound effects or animations
+
+Create a web version using Flask
+
+AUTHOR:
+
+Saad

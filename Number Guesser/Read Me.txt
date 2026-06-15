@@ -1,0 +1,123 @@
+Number Guesser - Mini Project
+=============================
+
+Project Overview
+This mini project is a simple number guessing game built using Python and object-oriented programming.
+The program randomly selects a number, and the user must guess it within a limited number of attempts.
+The user can also request hints, and the chatbot will provide different types of clues to help them guess the number.
+
+Features
+
+Random number generation within a chosen range
+
+Limited number of guesses
+
+Limited number of hints
+
+Three categories of hints:
+a) Factors or multiples
+b) Larger or smaller
+c) Even or odd
+
+Chatbot-style interaction
+
+Game ends when the user guesses correctly or runs out of guesses
+
+How the Game Works
+
+When the program starts, it creates a Guesser object.
+
+The chatbot greets the user and explains the rules.
+
+The user enters a guess or types "hint" to receive a clue.
+
+If the guess is correct, the game congratulates the user and ends.
+
+If the guess is wrong, the number of guesses decreases.
+
+If the user asks for a hint, the chatbot provides one and decreases the hint count.
+
+The chatbot always reminds the user of how many guesses and hints remain.
+
+If the user runs out of hints, the chatbot apologizes and only accepts guesses.
+
+If the user runs out of guesses, the game reveals the number and ends.
+
+Guesser Class
+The Guesser class handles:
+
+Generating the secret number
+
+Tracking guesses and hints
+
+Calculating factors
+
+Generating multiples
+
+Determining even or odd
+
+Choosing larger or smaller hints
+
+Returning a random hint based on the hint category
+
+Chatbot Interaction
+The chatbot handles:
+
+Greeting the user
+
+Taking input
+
+Checking guesses
+
+Displaying hints
+
+Ending the game when appropriate
+
+How to Run
+
+Save the Python file
+
+Run it in any Python environment or terminal
+
+Follow the on-screen instructions
+
+Example Inputs
+
+5
+
+hint
+
+8
+
+hint
+
+3
+
+Example Outputs
+
+"Wrong guess. Try again."
+
+"Hint: One factor is 2"
+
+"Hint: The number is odd"
+
+"Correct! You guessed the number!"
+
+"You ran out of guesses. The number was X."
+
+Purpose of the Project
+This project helps practice:
+
+Object-oriented programming
+
+Class design
+
+Conditional logic
+
+Loops
+
+Random number generation
+
+User interaction
+
+Basic game logic
